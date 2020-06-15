@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--  Updates document with the custom property.  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--  Target.  -->
+    <span id="giveMeAwesomeness"></span>
+
+    <!--  Get it workin'.  -->
+    <script type="module">
+      import { cssCustomProperty } from '../cssCustomProperty.js';
+
+      let style = document.createElement("style");
+      style.textContent =
+      `
+        #giveMeAwesomeness::after {
+          content: "${cssCustomProperty('--awesomeness')}";
+        }
+      `
+      document.body.appendChild(style);
+    </script>
+  </body>
+</html>

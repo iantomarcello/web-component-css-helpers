@@ -1,0 +1,17 @@
+{
+  "name": "web-component-css-helpers",
+  "version": "0.1.0",
+  "description": "CSS mixins or utilities as JavaScript.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc",
+    "test": "node absC/test.js & node cssCustomProperty/test.js & node cssFluid/test.js"
+  },
+  "author": "Ian Yong (iantomarcello)",
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer": "^3.3.0",
+    "typescript": "^3.9.5"
+  }
+}
