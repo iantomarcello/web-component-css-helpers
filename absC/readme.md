@@ -1,3 +1,7 @@
+## Deprecation Notice - August 2023
+This is basically a class, no reason to use a JS import for this.
+
+---
 Returns a CSS snippets that position element absolutely to the centre,
 to a relative parent. <br>
 Essentially, by default, returns these properties:

@@ -1,3 +1,8 @@
+## Deprecation Notice - August 2023
+With CSS [min max and clamp](https://web.dev/min-max-clamp/) being support in all browsers, no reason to use a JS import for this.
+
+---
+
 Returns a CSS `calc` that outputs fluid dynamic value, depending on viewport width.
 
 Adapted from [my less mixin](https://github.com/iantomarcello/webtools/blob/master/commons.less#L265), which is originally adapted from Geoff Graham's [article on CSS-Tricks](https://css-tricks.com/snippets/css/fluid-typography/), which, in turn was written for SASS, check it out if you like an explanation on how this works.
