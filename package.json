@@ -5,13 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsc",
-    "test": "node absC/test.js & node cssCustomProperty/test.js & node cssFluid/test.js"
+    "start": "tsc"
   },
   "author": "Ian Yong (iantomarcello)",
   "license": "MIT",
   "devDependencies": {
-    "puppeteer": "^3.3.0",
     "typescript": "^3.9.5"
   }
 }

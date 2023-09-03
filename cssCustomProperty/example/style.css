@@ -1,8 +1,0 @@
-:root {
-  --red: #f00;
-  --awesomeness: 🌈;
-}
-
-#makeMeRed {
-  color: green; /* to be changed by JS */
-}
